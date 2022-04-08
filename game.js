@@ -10,7 +10,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 //const inputname =document.getElementById("fname").src = "index.html"
 //const heyDiv = document.getElementById("HeyContainer");
 
-const questionTime = 10;
+const questionTime = 15;
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
@@ -54,7 +54,7 @@ fetch(
 ////////////////////////////////////////////////Reading API////////////////////////////////////
 
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 5;
 startGame = () => { //Initialize the game
     questionCounter = 0;
     score = 0;

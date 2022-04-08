@@ -6,7 +6,7 @@ const mostRecentScore = localStorage.getItem('mostRecentScore');
 const scoreDiv = document.getElementById("scoreContainer");
 const scoreperDiv = document.getElementById("finalScore");
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 5;
 ///////////////////////////////////////Initialize The Const and Let////////////////////////////////////////////////////////////
 
 finalScore.innerText = mostRecentScore;
